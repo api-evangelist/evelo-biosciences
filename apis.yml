@@ -1,8 +1,25 @@
 aid: evelo-biosciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/evelo-biosciences.png
 name: Evelo Biosciences *
-description: 'Evelo Biosciences * is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Evelo Biosciences was a Flagship Pioneering-founded, GV-backed microbiome
+  biotechnology company in Cambridge, Massachusetts, developing orally delivered
+  investigational medicines acting on the small intestinal axis. Following clinical
+  failures of its lead candidates EDP1815 and EDP2939, the company announced
+  dissolution in November 2023 and has been wound down. It is retained in the API
+  Evangelist network as a dissolved life-sciences portfolio record: the evelobio.com
+  domain now serves only a parked catch-all error page and the company publishes no
+  developer portal, documentation, or API surface of any kind.'
 url: https://raw.githubusercontent.com/api-evangelist/evelo-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,25 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: dissolved
+x-status-detail: 'Evelo Biosciences (Flagship Pioneering microbiome biotech) announced
+  dissolution in November 2023 after clinical failures of EDP1815 and EDP2939 and
+  exhausting funding options. The company is wound down; evelobio.com now serves a
+  parked error page with broken HTTPS and no developer/API surface. No real artifacts
+  are available to enrich.'
+x-status-source: https://www.fiercebiotech.com/biotech/evelos-voyage-ends-flagship-founded-biotech-finds-dissolution-only-viable-option
+x-enrichment-checked: '2026-07-20'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Microbiome
+- Pharmaceuticals
+- Dissolved
+- Venture Backed
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +53,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/evelo-biosciences-domain-security.yml
 - type: Website
   url: http://evelobio.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
