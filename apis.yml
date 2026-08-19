@@ -35,7 +35,7 @@ x-status-detail: 'Evelo Biosciences (Flagship Pioneering microbiome biotech) ann
   are available to enrich.'
 x-status-source: https://www.fiercebiotech.com/biotech/evelos-voyage-ends-flagship-founded-biotech-finds-dissolution-only-viable-option
 x-enrichment-checked: '2026-07-20'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
