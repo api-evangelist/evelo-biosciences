@@ -48,7 +48,7 @@ x-status-source: https://www.fiercebiotech.com/biotech/evelos-voyage-ends-flagsh
 x-enrichment-checked: '2026-07-20'
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Life Sciences
@@ -64,6 +64,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: http://evelobio.com/blog/
+  type: Blog
 - type: DomainSecurity
   url: security/evelo-biosciences-domain-security.yml
 - type: Website
